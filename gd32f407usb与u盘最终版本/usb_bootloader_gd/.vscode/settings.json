@@ -1,4 +1,9 @@
 {
   "C_Cpp.intelliSenseEngine": "default",
-  "editor.multiCursorModifier": "alt"
+  "editor.multiCursorModifier": "alt",
+  "C_Cpp.default.defines": [
+    "GD32F407",
+    "CHIP_SERIES_F407",
+    "USE_STDPERIPH_DRIVER"
+  ]
 }
