@@ -99,7 +99,7 @@ int main(void)
 		{
 			static uint8_t led_on = 0;
 			uint32_t now = plat_get_tick_ms();
-			if (now - led_tick >= 300) {
+			if (now - led_tick >= 800) {
 				led_tick = now;
 				led_on = !led_on;
 #if LED0_ACTIVE_LOW
