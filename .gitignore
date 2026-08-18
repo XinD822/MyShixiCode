@@ -1,0 +1,40 @@
+# ============================================
+# 实习代码总仓库根 .gitignore
+# 本地仓库位置：E:\Shixi\实习成果备份区
+# ============================================
+
+# ----- Keil MDK 构建产物 -----
+Objects/
+Listings/
+OutPut/
+obj/
+*.uvguix.*
+*.uvoptx
+*.bak
+*.o
+*.d
+*.crf
+*.dep
+*.axf
+*.lnp
+*.sct
+*.htm
+*.build_log.htm
+*.hex
+*.bin
+*.elf
+
+# ----- 日志与临时文件 -----
+*.log
+JLinkLog.txt
+JLinkSettings.ini
+*.tmp
+*.swp
+
+# ----- 手动重复备份文件夹（git 已取代，磁盘上保留但不进仓库）-----
+* - 副本*
+f407u盘拖拽升级备份*
+
+# ----- 脚手架 / 临时仓库 -----
+git/
+.git.old

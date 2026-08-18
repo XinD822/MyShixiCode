@@ -1,0 +1,15 @@
+#ifndef __USART_H__
+#define __USART_H__
+
+#include "platform.h"
+
+#define USART1_RXBUF_SIZE	256
+#define USART1_BAUD	115200
+
+
+void UsartInit(void);
+void UsartSendByte(uint32_t USARTx,u8 ch);
+void UsartSendString(uint32_t USARTx,u8 * str);
+void USART1_IRQHandler(void);
+
+#endif
